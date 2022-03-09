@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+ 
+ 
+  html,body{
+       width: 100%;
+       height: 100%;    
+  }
+  #main
+  { position: relative;
+      display: flex;
+      width: 100%;
+      height: 100%;
+  }
+  #left
+  {  position: absolute;
+  
+      width: 100%;
+      height: 100%;
+      background-color: rgb(151   , 0, 0);
+      clip-path: polygon(0 0, 50% 0, 100% 100%, 0 100%);
+
+  }
+  #right
+  {    
+     position: absolute;
+      width: 100%;
+      height: 100%;
+      background-color: aqua;
+      clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 50% 100%);
+  }
+ #ram
+{
+    position: absolute;
+    left: 10%;
+    z
+    top: 0;
+    width: 200px;
+    height: 100%;
+    background-color: aliceblue;
+}
